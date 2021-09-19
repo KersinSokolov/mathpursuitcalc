@@ -1,0 +1,43 @@
+.chooser-button{
+	display: inline-block;
+	width: 40px;
+	color: #fff;
+	background: #585858;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #ccc;
+	margin: 2px;
+	outline: none;
+}
+.chooser-button:hover{
+	background-color: #c3c3c3;
+}
+.chooser-button:active,
+.chooser-button.selected{
+	background-color: #c3c3c3;
+	transform: translateY(1px);
+	border: 1px solid #000;
+	border-right: none;
+	border-bottom: none;
+}
+
+.chooser-button[disabled]{
+	opacity: 0.5;
+    background: #bbb;
+    border: 1px solid #bbb;
+    cursor: not-allowed;
+    color: #444;
+}
+
+.chooser-button-wrapper{
+	position: relative;
+    display: inline-block;
+}
+.chooser-button-hint{
+	position: absolute;
+    font-size: 8px;
+    width: 10px;
+    margin: -40px 0 0 1px;
+}

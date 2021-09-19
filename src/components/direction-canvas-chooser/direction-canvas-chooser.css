@@ -1,0 +1,5 @@
+.manual-chooser-strategy canvas{
+    background: #ccc url("bck.png") center center;
+    width: 180px;
+    height: 180px;
+}

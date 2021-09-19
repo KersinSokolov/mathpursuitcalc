@@ -1,0 +1,6 @@
+.gameField{
+  border: 1px solid #000;
+  background: url(bkg.png);
+  float: left;
+  margin-left: 2px;
+}

@@ -1,0 +1,10 @@
+.improved-chooser-strategy{
+	width: 180px;
+    background: #e6e6e6;
+    text-align: center;
+    min-height: 205px;
+    padding: 10px 0;
+    box-sizing: border-box;
+    height: 200px;
+    overflow: auto;
+}

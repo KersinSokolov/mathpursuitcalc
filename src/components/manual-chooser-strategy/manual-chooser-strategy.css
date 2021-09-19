@@ -1,0 +1,16 @@
+.manual-chooser-strategy{
+    width: 180px;
+    background: #e6e6e6;
+    text-align: center;
+    box-sizing: border-box;
+    height: 205px;
+}
+
+.manual-chooser-strategy input{
+    width: 85px;
+    box-sizing: border-box;
+    padding: 0 0 0 3px;
+}
+.manual-chooser-strategy input:first-child{
+    margin-right: 8px;
+}

@@ -1,0 +1,36 @@
+.player{
+    width: 180px;
+    display: inline-block;
+    margin: 0 0 10px 7px;
+    padding: 3px 4px;
+    vertical-align: top;
+    border-radius: 5px;
+}
+.player.pursuer{
+    box-shadow: 0 0 4px #00D;
+}
+.player.evader{
+    box-shadow: 0 0 4px #D00;
+}
+.player-coords input{
+    box-sizing: border-box;
+}
+.player-coords input[type="number"]{
+    width:70px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.player-coords input[type="button"]{
+    width: 20px;
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+}
+.player-button-coordinates{
+    width: 100%;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.awaiting-btn{
+    box-shadow: 0 0 4px red inset;
+}

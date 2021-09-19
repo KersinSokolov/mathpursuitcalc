@@ -1,0 +1,85 @@
+.buttonswrapper {
+    margin: 15px 8px;
+}
+.buttonswrapper .timelabel{
+    width: 100px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+}
+.buttonswrapper input[type="button"], .loadbtn{
+    width: 80px;
+    height: 30px;
+    margin: 0 10px 0 0;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    border: 1px solid #222;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+    background: #777;
+    color: #fff;
+}
+.loadbtn input{
+    width: 80px;
+    height: 30px;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+    z-index: 1;
+    --webkit-appearance: none;
+}
+.loadbtn label{
+    width: 80px;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+    left:0;
+    top:0;
+}
+.loadbtn {
+    position: relative;
+    box-sizing: border-box;
+}
+.settingsdialog{
+    position: fixed;
+    width: 450px;
+    margin: 0 auto;
+    height: 200px;
+    background: #eee;
+    border-radius: 4px;
+    border: 3px solid #50b95d;
+    line-height: 25px;
+    
+}
+.settingsdialog div:first-child{
+    text-align: center;
+    margin: 5px 0;
+}
+.settingsdialog input.closebtn{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    float: right;
+}
+.settingsdialog input[type="checkbox"]{
+    margin: 0px 6px 6px 15px;
+    line-height: 31px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.settingsdialog label[for]{
+    cursor: pointer;
+}
+.settingsfeasiblesetinput{
+    width: 50px;
+    margin: 0 10px 2px 15px;
+    vertical-align: bottom;
+}

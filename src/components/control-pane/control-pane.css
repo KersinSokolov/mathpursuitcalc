@@ -1,0 +1,34 @@
+.buttonswrapper input[type="button"].instructionbtn{
+    width: 100px;
+}
+.buttonswrapper input[type="button"].clsoeinstructionbtn{
+    width: 100px;
+}
+.instructionbck{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: auto;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background: #fff;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+.buttonswrapper input[type="button"].savebtn{
+    margin-left: 15px;
+}
+.buttonswrapper input[type="button"][role]{
+    width: 150px;
+}
+.buttonswrapper input[type="button"][role="pursuer"]{
+    background: #4243ff;
+}
+.buttonswrapper input[type="button"][role="evader"]{
+    background: #ff4343;
+}
+.instructionbck img{
+    display: block;
+    margin: 0 auto 10px;
+}
